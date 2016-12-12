@@ -1,0 +1,70 @@
+[{
+        "Name": "Red Notepad"
+        , "producttype": "Notepads"
+        , "Price": "$5.99"
+        , "Description": "8.5 x 11.75 inch size with legal/wide ruling, 50 canary yellow sheets per pad - Pack of 12 pads, Made in the USA"
+        , "Picture": "http://distributor.golding.eu/a5-hardcover-notebook-red--P773-534$1--hd.jpg"
+, },
+
+    {
+        "Name": "Blue Folder"
+        , "producttype": "Folders"
+        , "Price": "$7.99"
+        , "Description": "Overall Dimension: 9.5 X 11.5, Heavy duty plastic folder that resists moisture, Durable folder helps keep papers protected "
+        , "Picture": "http://di5cp8ixdolg4.cloudfront.net/images/products/30014b.jpg"
+, },
+
+    {
+        "Name": "Black Stapler"
+        , "producttype": "Staplers"
+        , "Price": "$13.99"
+        , "Description": "Staple up to 15 sheets of 20 pound paper at a time. Easily opens for tacking flexibility, Stapler is coated with antimicrobial product protection to repel bacteria."
+        , "Picture": "http://www.staples-3p.com/s7/is/image/Staples/s0446236_sc7?$splssku$"
+},
+
+    {
+        "Name": "Yellow Notepad"
+        , "producttype": "Notepads"
+        , "Price": "$5.99"
+        , "Decription": "8.5 x 11.75 inch size with legal/wide ruling, 50 canary yellow sheets per pad - Pack of 12 pads, Made in the USA"
+        , "Picture": "http://ynlcarepaks.com/image/cache/catalog/yellowpad-786x1000.jpg"
+, }
+    , {
+        "Name": "Red Stapler"
+        , "producttype": "Staplers"
+        , "Price": "$5.99"
+        , "Description": "Staple up to 15 sheets of 20 pound paper at a time. Easily opens for tacking flexibility, Stapler is coated with antimicrobial product protection to repel bacteria."
+        , "Picture": "http://www.thinkgeek.com/images/products/zoom/61b7_swingline_stapler.jpg"
+, },
+
+    {
+        "Name": "Green Folder"
+        , "producttype": "Folders"
+        , "Price": "$7.99"
+        , "Description": "Overall Dimension: 9.5 X 11.5, Heavy duty plastic folder that resists moisture, Durable folder helps keep papers protected"
+        , "Picture": "http://di5cp8ixdolg4.cloudfront.net/images/products/30012.jpg"
+, },
+
+    {
+        "Name": "Blue Notepad"
+        , "producttype": "Notepads"
+        , "Price": "$5.99"
+        , "Description": "8.5 x 11.75 inch size with legal/wide ruling, 50 canary yellow sheets per pad - Pack of 12 pads, Made in the USA"
+        , "Picture": "http://thumbs.ebaystatic.com/images/g/OcEAAOSwFMZWqPwp/s-l225.jpg"
+, },
+
+    {
+        "Name": "Red Folder"
+        , "prodducttype": "Folders"
+        , "Price": "$7.99"
+        , "Description": "Overall Dimension: 9.5 X 11.5, Heavy duty plastic folder that resists moisture, Durable folder helps keep papers protected"
+        , "Picture": "http://di5cp8ixdolg4.cloudfront.net/images/products/30013b.jpg"
+, },
+
+    {
+        "Name": "Yellow Folder"
+        , "producttype": "Folders"
+        , "Price": "$7.99"
+        , "Description": "Overall Dimension: 9.5 X 11.5, Heavy duty plastic folder that resists moisture, Durable folder helps keep papers protected"
+        , "Picture": "http://di5cp8ixdolg4.cloudfront.net/images/products/30016b.jpg"
+, }]
