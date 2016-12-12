@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Stork</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link href="app-content/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-include="'navbar/navbar.html'" ng-if="navbar.enabled"></div>
+    
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+    <div class="credits text-center">
+        <p style="color:#4286f4">
+            Stork UI Demo
+        </p>
+        <p style="color:#4286f4">
+            Adrian Jones
+        </p>
+    </div>
+    
+    <div ng-include="'footer/footer.html'" ng-if="footer.enabled"></div>
+
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="//code.angularjs.org/1.5.9/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.5.9/angular-route.js"></script>
+    <script src="//code.angularjs.org/1.5.9/angular-cookies.js"></script>
+    <script src="//code.angularjs.org/1.5.9/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.3.0/ui-bootstrap-tpls.min.js"></script>
+    
+    <script src="app.js"></script>
+    <script src="app-services/authentication.service.js"></script>
+    <script src="app-services/flash.service.js"></script>
+    <script src="app-services/view.service.js"></script>
+    
+    <!-- Real user service that uses an api -->
+    <!-- <script src="app-services/user.service.js"></script> -->
+
+    <!-- Fake user service for demo that uses local storage -->
+    <script src="app-services/user.service.local-storage.js"></script>
+    
+    <!-- Fake product service for demo that uses local storage -->
+    <script src="app-services/product.service.local-storage.js"></script>
+    
+    <!-- Fake cart service for demo that uses local storage -->
+    <script src="app-services/cart.service.local-storage.js"></script>
+    
+    <script src="home/home.controller.js"></script>
+    <script src="login/login.controller.js"></script>
+    <script src="register/register.controller.js"></script>
+    <script src="navbar/navbar.controller.js"></script>
+    <script src="product/product.controller.js"></script>
+    <script src="cart/cart.controller.js"></script>
+    
+</body>
+</html>

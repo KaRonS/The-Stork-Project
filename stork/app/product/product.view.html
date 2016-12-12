@@ -1,0 +1,13 @@
+<div class="row" ng-repeat="product in vm.products">
+    <div class="col-sm-8">
+        <h2 style="margin:0px" class="text-muted">{{product.name}}</h2>
+        <p style="font-size:inherit" class="text-muted">{{product.description}}</p>
+    </div>
+    <div class="col-sm-3">
+        <img class="img-responsive img-thumbnail" ng-src = "{{product.picture}}"></img>
+    </div>
+    <div style="margin-top: 5px" class="col-sm-6">
+        <button type="submit" class="btn btn-primary" ng-click="vm.addToCart(product)">Cart</button>
+        <button class="btn btn-primary" type="button"> Price: <span class="badge">{{product.price}}</span> </button>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+
+<nav class="navbar navbar-default" ng-controller="NavbarController">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed" aria-expanded="true"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#/" class="navbar-brand">
+            <span class="glyphicon glyphicon-send"></span> STORK</a>
+        </div>
+        <div class="navbar-collapse collapse in" uib-collapse="isCollapsed" aria-expanded="true">
+            <ul class="nav navbar-nav">
+                <li class="dropdown" id="office" uib-dropdown> <a class="dropdown-toggle" uib-dropdown-toggle role="button" aria-expanded="false">Office <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li ng-repeat="type in supplyTypes">
+                            <a ng-click="setProductType(type)" href="#/products">
+                                {{type}}
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown" id="technology" uib-dropdown> <a class="dropdown-toggle" uib-dropdown-toggle role="button" aria-expanded="false">Technology <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li ng-repeat="type in computerTypes">
+                            <a ng-click="setProductType(type)" href="#/products">
+                                {{type}}
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#/cart">
+                        <button class="btn btn-primary" type="button">   
+                            Cart 
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            <span class="badge">{{globals.cartTotal}}</span>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
