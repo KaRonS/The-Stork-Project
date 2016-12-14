@@ -1,0 +1,12 @@
+<div class="row" style="margin-bottom:5px" ng-repeat="item in vm.cart">
+    <div style="margin-bottom:5px" class="col-sm-8">
+        <h2 style="margin:0px" class="text-muted">{{item.product.name}}</h2>
+        <p style="font-size:inherit" class="text-muted">{{item.product.description}}</p>
+        <button class="btn btn-primary" type="button"> Quantity: <span class="badge">{{item.quantity}}</span> </button>
+        <button class="btn btn-primary" type="button"> Quantity: <span class="badge">Price: {{item.product.price * item.quantity}}</span> </button>
+        
+    </div>
+    <div class="col-sm-3"> 
+        <img class="img-responsive img-thumbnail" ng-src="{{item.product.picture}}"></img>
+    </div>
+</div>
